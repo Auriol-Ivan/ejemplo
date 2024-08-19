@@ -24,6 +24,7 @@ public class ListaPersona {
         Persona p2 = new Persona("Ana",25);
         Persona p3 = new Persona("Rodolfo",29);
         Persona p4 = new Persona("Rodolfo",29);
+        Persona p5 = new Persona("Rodolfo",29);
         
        ArrayList<Persona> personas = new ArrayList();
         
@@ -50,6 +51,5 @@ public class ListaPersona {
         for(Persona p:personas){
             System.out.println(p);
         }
-    }
-    
+    }  
 }
